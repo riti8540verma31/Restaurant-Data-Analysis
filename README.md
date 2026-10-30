@@ -7,13 +7,13 @@ Python, pandas, Matplotlib, Jupyter Notebook
 
 ## Project Structure
 ```
-restaurant-data-analysis/
+Restaurant-Data-Analysis/
 ├── README.md
-├── .gitignore
-├── dataset.csv                              # restaurant dataset
-├── level1_tasks.ipynb                       # Level 1: basic EDA
-├── level2_tasks.ipynb                       # Level 2: advanced analysis
-└── Restaurant_Data_Analysis_Report.pdf      # full written report
+├── Restaurant_Data_Analysis_Report.pdf
+├── Level1/
+│   └── level1_tasks.ipynb
+└── Level2/
+    └── level2_tasks.ipynb
 ```
 
 ## Level 1: Basic Analysis
@@ -40,12 +40,12 @@ restaurant-data-analysis/
 - The largest chains (Cafe Coffee Day, Domino's, Subway) are not the highest rated or the most popular.
 
 ## Techniques Used
-`groupby`, `value_counts`, `str.split` with `explode`, `pd.cut`, filtering unrated restaurants (rating 0), minimum-count filters, and bar and scatter plots.
+`groupby`, `value_counts`, `str.split` with `explode`, filtering unrated restaurants (rating 0), minimum-count filters, and bar and scatter plots.
 
 ## How to Run
 ```bash
-git clone https://github.com/<your-username>/restaurant-data-analysis.git
-cd restaurant-data-analysis
+git clone https://github.com/riti8540verma31/Restaurant-Data-Analysis.git
+cd Restaurant-Data-Analysis
 pip install pandas matplotlib jupyter
 jupyter notebook
 ```
